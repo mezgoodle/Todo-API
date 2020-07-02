@@ -1,6 +1,7 @@
 from django.test import TestCase
 from .models import Todo
 
+
 class TodoModelTest(TestCase):
     @classmethod
     def setUpTestData(cls):
